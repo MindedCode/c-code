@@ -1,0 +1,19 @@
+/* nested ternary operator is  expression [var=(expres..1 ? expres..2 : expres..3)].
+Ternary  operator  condition is true then display expression 2 execute.
+Condition is false then display 3 expression 
+if nested ternary operator use first expresion 2nd */
+
+#include <stdio.h>
+
+int main ()
+{
+int a,b ;   
+int math=90;
+int computer=100;
+
+a = ( math!=80 ? ( math!=1 ? 3 : 5) : 7 );
+
+printf(" %d",a);
+
+return 0;
+}
