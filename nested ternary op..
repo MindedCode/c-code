@@ -1,4 +1,4 @@
-/* as we know  in ternary operator are two operator. nested ternary operator is  expression [var=(expres..1 ? expres..2 (....nested....) : expres..3)].
+/* as we know  in ternary operator are two operator. <this is inheritence>  nested ternary operator is  expression [var=(expres..1 ? expres..2 (....nested....) : expres..3)].
 Ternary  operator  condition is true then display expression 2 execute.
 Condition is false then display 3 expression 
 if nested ternary operator use first expresion 2nd */
