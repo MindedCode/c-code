@@ -14,7 +14,7 @@ struct node* insert_beg(struct node* head, int x)
   temp -> next  = NULL;
   temp -> data = x;
   
-  if(head = NULL)
+  if(head == NULL)
   {
       head = temp;
       return head;
@@ -44,13 +44,14 @@ int print(struct node* head)
 
 int main()
 {
+    printf("begining liked list ");
     struct node *head = NULL;
     head = insert_beg(head, 5);
     head = insert_beg(head, 6);
-    head = insert_beg(head, 5);
-    head = insert_beg(head, 5);
-    head = insert_beg(head, 5);
-    head = insert_beg(head, 5);
+    head = insert_beg(head, 7);
+    head = insert_beg(head, 8);
+    head = insert_beg(head, 9);
+    head = insert_beg(head, 10);
     print(head);
     // struct node *temp = (struct node*)(malloc(size of(struct node))); // type casting structure
     // temp -> data = 5;
@@ -63,5 +64,5 @@ int main()
     // temp2 -> next = NULL;
     
     // temp -> next = temp2;
-    printf("1st programme :: ");
+    printf("\n===================Program is end====================");
 }
