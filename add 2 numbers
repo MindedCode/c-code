@@ -5,7 +5,7 @@ the + operator, and the result is displayed in the sum variable
 //-----------Here codes --------------
 #include<stdio.h>
 int main ()
-{
+{ 
   int  first_no;
   int  second_no;
   int sum;
