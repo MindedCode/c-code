@@ -1,0 +1,27 @@
+//(100,200, 300, 900, 810, 1000, 1500, 1800, 1900,  2000, 2020, 2021, 2022)  leap yrs yes or not 
+
+#include<stdio.h>
+int main()
+{
+    int year;
+    for(int i =0; i<=12; i++)
+        {
+            printf("Enter the yr \n ");
+            scanf("%d",&year);
+        
+            if(year%4==0)
+                {
+                        
+                    if(year%400==0)
+                        {
+                            printf("%d is leap yr ::\n \n",year);
+                        }
+                    else
+                        {
+                            printf(" %d is ordinary year::\n \n",year);
+                        }
+                }
+            else
+                printf(" %d is ordinary year::\n \n",year);
+        }
+}
