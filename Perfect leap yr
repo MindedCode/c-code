@@ -19,7 +19,7 @@ int main()
                     else
                         {
                             printf(" %d is ordinary year::\n \n",year);
-                        }
+                        }   
                 }
             else
                 printf(" %d is ordinary year::\n\n",year);
