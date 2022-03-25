@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    int year;
+    int year; 
     for(int i =0; i<=12; i++)
         {
             printf("Enter the yr \n ");
