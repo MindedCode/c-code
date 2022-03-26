@@ -9,22 +9,25 @@ int main()
             printf("Enter the yr \n ");
             scanf("%d",&year);
         
-            if(year%4==0)
-                {
-                        
-                    if(year%400==0)
+            if(year%400==0)
                         {
                             printf("%d is leap yr ::\n \n",year);
                         }
-                    else
+                        
+            else if(year%100==0)
                         {
                             printf(" %d is ordinary year::\n \n",year);
                         }   
-                }
+            else if(year%4==0)                      
+                        {
+                            printf("%d is leap yr ::\n \n",year);
+                        }  
+                
             else
                 printf(" %d is ordinary year::\n\n",year);
         }
 }
+
 
 
 ******************* Output here :*******************
