@@ -4,7 +4,7 @@
 int main()
 {
     int year; 
-    for(int i =0; i<=13; i++)
+    for(int i =0; i<=12; i++)
         {
             printf("Enter the yr \n ");
             scanf("%d",&year);
@@ -33,10 +33,6 @@ int main()
 ******************* Output here :*******************
 
 Enter the yr 
- 1900
- 1900 is ordinary year::
-
-Enter the yr
  100
  100 is ordinary year::
 
@@ -45,7 +41,7 @@ Enter the yr
  200 is ordinary year::
 
 Enter the yr
- 300 
+ 300
  300 is ordinary year::
 
 Enter the yr
@@ -72,6 +68,7 @@ Enter the yr
  1900
  1900 is ordinary year::
 
+Enter the yr
  2000
 2000 is leap yr ::
 
@@ -82,3 +79,7 @@ Enter the yr
 Enter the yr
  2021
  2021 is ordinary year::
+
+Enter the yr
+ 2022
+ 2022 is ordinary year::
