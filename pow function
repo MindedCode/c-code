@@ -7,8 +7,12 @@ firstly  include library (math.h) Pow function use  a power of numbers.
 
 int main()
 {
-   printf("%f",pow(5,3));
+   printf("%d",pow(5,3));
     
 
     return 0;
-}
+} 
+
+Output :
+
+5*3 = 15;
