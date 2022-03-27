@@ -1,0 +1,54 @@
+/* THE PROGRAM IS 'DO WHILE LOOP'*/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    char ch ;
+    // int i;
+    do{
+        printf("Welcome to system lang. learner::\n"); // while loop out side execute before code
+        printf("1. c programing lang...\n");
+        printf("2. c++ programing lang...\n");
+        printf("3. Java programing lang..\n");
+        printf("4. Python programing lang..\n");
+        printf("press key a or A but any press key see this again manu ");
+        scanf("%c",&ch);
+        // ch=getch();
+    }while(ch!='a'&& ch!='A'); /// condition check
+            printf(" Thank you for visting");
+            return 0;
+}
+
+_____Output here :______
+
+first output :
+
+Welcome to system lang. learner::
+1. c programing lang...
+2. c++ programing lang...
+3. Java programing lang..
+4. Python programing lang..
+press key a or A but any press key see this again manu A
+ Thank you for visting
+ 
+ Second output :
+
+Welcome to system lang. learner::
+1. c programing lang...
+2. c++ programing lang...
+3. Java programing lang..
+4. Python programing lang..
+press key a or A but any press key see this again manu b
+
+ Thank you for visting
+ 
+  Third output :
+
+Welcome to system lang. learner::
+1. c programing lang...
+2. c++ programing lang...
+3. Java programing lang..
+4. Python programing lang..
+press key a or A but any press key see this again manu b
+
+ Thank you for visting
