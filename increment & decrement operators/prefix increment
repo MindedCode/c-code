@@ -1,6 +1,6 @@
 /******************************************************************************
 
-this code use increment and decrement operator 
+this code use prefix increment and decrement operator 
 
 *******************************************************************************/
 #include <stdio.h>
