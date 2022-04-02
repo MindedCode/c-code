@@ -1,0 +1,26 @@
+/******************************************************************************
+
+this code use increment and decrement operator 
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int a=1;
+    printf("before increment operator =%d\n ",a);  //when before increment operater 
+    a++;
+    printf("after increment operator =%d",a);  //when after increment operator
+    
+
+    return 0;
+} 
+
+
+
+
+
+
+Output hare:
+ before increment operator =10
+ after increment operator =11
