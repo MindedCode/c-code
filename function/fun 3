@@ -1,16 +1,26 @@
 /******************************************************************************
-this is simple c program 
+This a simple c function program. this  is a munltiple function call
 *******************************************************************************/
 #include <stdio.h>
 
 int main()
 {
-    first_fun(int int);
+    printf("indivisual restaurants categoregies name \n");
+    restaurants();
+    restaurants_1();
+    restaurants_2();
 
     return 0;
 }
-int first_fun(int a,int b)
+int restaurants()
 {
-    int sum = 5+6;
-    printf("the sum of a=%d, b=%d = %d");
+    printf("Adarsh Restaurants\n");
+}
+int restaurants_1()
+{
+printf("Rahul Pal Best Restaurants\n");
+}
+int restaurants_2()
+{
+printf("Rukayansh Restaurants");
 }
