@@ -1,4 +1,4 @@
-/*WAP find the greatest common divisor between two numbers/
+****/WAP find the greatest common divisor between two numbers/****
 #include<stdio.h>
 int recgcd (int, int );
 int main()
