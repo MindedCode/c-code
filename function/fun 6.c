@@ -1,4 +1,4 @@
-/WAP find the greatest common divisor between two numbers
+/*WAP find the greatest common divisor between two numbers/
 #include<stdio.h>
 int recgcd (int, int );
 int main()
@@ -21,5 +21,8 @@ int recgcd (int x, int y)
         }
 }
 
-/Output of the program :
+/*Output of the program :/
+
+Enter two numbers88 66
+G.C.D of 88 and 66 is  = 22
 
