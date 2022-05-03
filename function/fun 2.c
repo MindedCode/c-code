@@ -4,7 +4,7 @@ this is simple c program
 #include <stdio.h>
 
 int main()
-{
+{   
     first_fun(int int);
 
     return 0;
