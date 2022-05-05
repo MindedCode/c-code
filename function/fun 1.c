@@ -1,15 +1,15 @@
 /******************************************************************************
 this is simple c function program 
 *******************************************************************************/
-#include <stdio.h>
-int first_fun();
-int main()
+#include <stdio.h> //attach the standard input/output library.
+int first_fun(); //earliar declare the function.
+int main()    //decalare the main function
 {
-    first_fun();
+    first_fun();  //funtion call
  
     return 0;
 }
-int first_fun()
+int first_fun() // define the function action definition
 {
     printf("Hello people\n");
     printf("This is patel brain ::");
