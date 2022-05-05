@@ -6,7 +6,7 @@ int first_fun();
 int main()
 {
     first_fun();
-
+ 
     return 0;
 }
 int first_fun()
