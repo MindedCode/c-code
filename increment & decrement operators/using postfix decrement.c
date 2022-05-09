@@ -11,7 +11,7 @@ int main()
     printf("before decrement operator =%d\n ",a); //when before decrement operater 
     a--;
     printf("after decrement operator =%d",a); //when after decrement operator
-    
+     
 
     return 0;
 } 
