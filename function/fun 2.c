@@ -5,7 +5,7 @@ this is simple c program
 
 int main()
 {   
-    first_fun(int int);
+    first_fun(int int); 
 
     return 0;
 }
