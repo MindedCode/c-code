@@ -4,7 +4,7 @@ this is simple c function program
 #include <stdio.h> //attach the standard input/output library.
 int first_fun(); //earliar declare the function.
 int main()    //decalare the main function
-{
+{ 
     first_fun();  //funtion call
  
     return 0;
