@@ -6,7 +6,7 @@ int first_fun(); //earliar declare the function.
 int main()    //decalare the main function
 { 
     first_fun();  //funtion call
- 
+  
     return 0;
 }
 int first_fun() // define the function action definition
