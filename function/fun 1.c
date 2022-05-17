@@ -8,7 +8,7 @@ int main()    //decalare the main function
     first_fun();  //funtion call
   
     return 0;
-}
+} 
 int first_fun() // define the function action definition
 {
     printf("Hello people\n");
