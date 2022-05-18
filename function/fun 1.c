@@ -5,7 +5,7 @@ this is simple c function program
 int first_fun(); //earliar declare the function.
 int main()    //decalare the main function
 { 
-    first_fun();  //funtion call
+    first_fun();  //funtion call 
   
     return 0;
 } 
