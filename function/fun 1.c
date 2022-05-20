@@ -14,9 +14,10 @@ int first_fun() // define the function action definition
     printf("Hello people\n");
     printf("This is patel brain ::");
     return 0; 
-}. 
+}
 
 **/The output of the program :/**
 
 Hello people
 This is patel brain ::
+ 
