@@ -11,7 +11,7 @@ int main()    //decalare the main function
 } 
 int first_fun() // define the function action definition
 {
-    printf("Hello people\n");
+    printf("Hello people\n"); // display
     printf("This is patel brain ::");
     return 0; 
 }
