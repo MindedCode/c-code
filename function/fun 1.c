@@ -19,7 +19,7 @@ int first_fun() // define the function action definition
 **/The output of the program :/**
 
 Hello people
-This is patel brain ::
+This is patel brain :: 
  
   
     
