@@ -13,7 +13,7 @@ int first_fun() // define the function action definition
 {
     printf("Hello people\n"); // display
     printf("This is patel brain ::");
-    return 0; 
+    return 0;  
 }
 
 **/The output of the program :/**
